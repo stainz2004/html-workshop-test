@@ -4,7 +4,7 @@ Kuidas mall välja näeb? [https://taltech-coding.github.io/html-workshop/](http
 
 Tegu on repoga, mida kasutatakse TalTechi veebilehe tegemise töötoas.
 
-NB! Kuna selles keskkonnas ei saa projekti lisada pilte siis tutorialit soovitan vaadata githubist!
+NB! Kuna HCODX keskkonnas ei saa projekti lisada pilte siis soovitan tutorialit vaadata githubist!
 
 Samuti kuna me ei saa projekti pilte lisada siis tuleb pildid lisada linkidena. Selleks kasutame https://tinyurl.com, et piltide lingid ei oleks massiivsed.
 
