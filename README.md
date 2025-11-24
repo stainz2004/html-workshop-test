@@ -4,30 +4,26 @@ Kuidas mall välja näeb? [https://taltech-coding.github.io/html-workshop/](http
 
 Tegu on repoga, mida kasutatakse TalTechi veebilehe tegemise töötoas.
 
+NB! Kuna selles keskkonnas ei saa projekti lisada pilte siis tutorialit soovitan vaadata githubist!
+
+Samuti kuna me ei saa projekti pilte lisada siis tuleb pildid lisada linkidena. Selleks kasutame https://tinyurl.com, et piltide lingid ei oleks massiivsed.
+
 Selles töötoas saad teha endale ilusa veebilehe! Kujundame CSS-i kasutades ühe stiilse HTML veebilehe.
 Eelnev kogemus ei ole oluline.
 
-## Variant 1 (IDE on olemas)
-1. Loo endale [GitHubi](https://github.com/) kasutaja.
-2. vali "Fork"
-![tutorial_img_1.png](tutorial_images/tutorial_img_1.png)
-3. Saad ise lisada repository'le nime ning vajuta _create fork_
-![img.png](tutorial_images/tutorial_img_2.png)
-4. Peale natukest laadimist peaks ette tulema sinu uus repo.
-
-## Variant 2 (IDE ei ole)
+## Tutorial
 
 1. Lae alla repository.
-![tutorial_img_webIde_1.PNG](tutorial_images/tutorial_img_webIde_1.PNG)
+![tutorial_img_webIde_1.png](tutorial_images/tutorial_img_webIde_1.png)
 2. Ava allalaetud ZIP-fail ning extracti ehk paki see lahti sobivasse asukohta oma arvutis.
+![tutorial_img_webIde_2.png](tutorial_images/tutorial_img_webIde_2.png)
 3. Ava HCODX veebirakendus https://hcodx.com.
-4. Sealt valida.
-![tutorial_img_webIde_2.PNG](tutorial_images/tutorial_img_webIde_2.PNG)
+4. Sealt vali.
+![tutorial_img_webIde_3.png](tutorial_images/tutorial_img_webIde_3.png)
 5. Vajuta "Select Folder" ja otsida üles asukoht kuhu töötoa fail sai salvestatud.
-![tutorial_img_webIde_3.PNG](tutorial_images/tutorial_img_webIde_3.PNG)
-6. Nüüd on kõik failid õiges kohas! Joontega ümbritsetud "play" nuppu vajutades avaneb uus vaade
-kus ongi teie VEEBILEHT! Kõik vajalikud failid, mis teil vaja on "html-workshop-main" kaustas vasakul.
-![tutorial_img_webIde_4.PNG](tutorial_images/tutorial_img_webIde_4.PNG)
+![tutorial_img_webIde_4.png](tutorial_images/tutorial_img_webIde_4.png)
+6. Nüüd on kõik failid õiges kohas! Joontega ümbritsetud kaks võimalust, kuidas oma veebilehte näha. Vasak nupp loob side-by-side vaate, kus veebileht iga muutusega uueneb. Parem nupp avab uue tab'i, kus on näha veebilehte, aga iga muudatuse korral tuleb veebileht uuesti samast nupust tööle panna.
+![tutorial_img_webIde_5.png](tutorial_images/tutorial_img_webIde_5.png)
 
 ## Repos on:
 * index.html - veebilehe HTML mall
@@ -48,47 +44,7 @@ kus ongi teie VEEBILEHT! Kõik vajalikud failid, mis teil vaja on "html-workshop
 
 ## Sisu lisamine (HTML)
 #### Töötame failis `index.html`
-### 1. Veebilehe visuaalsel kujul vaatamine
-
-Enne kui hakkad sisu muutma, vaata, kuidas veebileht praegu välja näeb. Selleks ava mall ja vaata seda veebilehitsejas,
-mitte ainult koodina failides.
-
-<details>
-<summary>💡 Vihje 1</summary>
-
-Ava projektis fail `index.html`
-</details>
-
-<details>
-<summary>💡 Vihje 2</summary>
-
-Üleval paremas nurgas (PyCharm puhul) on kolm väikest ikooni. Klõpsa neist sobival (nt brauseri ikoonil), et avada leht oma arvuti veebilehitsejas.
-Nüüd peaksid nägema malli veebilehe kujul.
-</details>
-
-### 2. Veebilehe pealkirja muutmine
-
-Kui avad veebilehe, näed, et brauseri vahelehel (tab'il) on kirjas "Minu veebileht". Muuda see sobivaks enda lehe sisule.
-
-<details>
-<summary>💡 Vihje</summary>
-
-Otsi failist üles element `<title>...</title>` ning muuda see enda valitud pealkirjaks.
-</details>
-
-<details>
-<summary>🛠️ Lahendus</summary>
-
-```html
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <title>MUUDA SEE ÄRA</title>
-</head>
-```
-</details>
-
-### 3. Pealkirja muutmine veebilehe peal
+### 1. Pealkirja muutmine veebilehe peal
 
 Praegu on sinu üheks veebilehe pealkirjaks lihtsalt "Nimetus". Muuda kõik sellised pealkirjad sobivaks.
 
@@ -116,7 +72,7 @@ Otsi failist üles element `<h1>...</h1>` ning muuda nende vahel olevat teksti.
 
 </details>
 
-### 4. Teksti muutmine
+### 2. Teksti muutmine
 
 Hetkel on meil seal palju ladinakeelset teksti, kuid soovime sinna midagi sisukamat - sinu veebilehele sobivamat.
 Muuda tekst igal pool, kus malli järgi (`given_template.png`) on palutud.
@@ -143,16 +99,16 @@ Otsi failist üles element `<p>...</p>` ning muuda nende vahel olevat teksti.
 </details>
 
 
-### 5. Pildi lisamine ja muutmine
+### 3. Pildi lisamine ja muutmine
 
-Leia endale meelepärased pildid ning lisa need oma veebilehele.
+Leia endale meelepärased pildid. Kui oled leidnud pildid siis kopeeri selle pildi link https://tinyurl.com ja kasuta sealt lühemat linki, sest muidu need võtavad pool meie projekti endale.
 
 <details>
 <summary>💡 Vihje 1</summary>
 
 Pildi lisamine projekti käib järgnevalt:
-- Otsi internetist mõni tore pilt ning lae see arvutisse alla.
-- Lisa see fail ka siia projekti (pilte hoiame `images` kaustas)
+- Otsi internetist mõni tore pilt.
+- Kopeeri selle pildi link.
 - Mine faili `index.html` ning asenda vana pilt uuega
 </details>
 
@@ -160,8 +116,7 @@ Pildi lisamine projekti käib järgnevalt:
 <summary>💡 Vihje 2</summary>
 
 Lisa väljas `img` asuvale `src` alale uue pildi asukoht.
-- Kui tegid soovitatult siis peaks selle asukoht olema `images/sinu_faili_nimi.png`
-- Pildi asukohta saad leida ka kui teed parema klõpsu pildifailil ning sealt "Copy path/reference...".
+- Kui tegid soovitatult siis peaks selle asukoht olema nt  `https://tinyurl.com/bdd5c7kk`
 </details>
 
 <details>
@@ -175,12 +130,12 @@ Lisa väljas `img` asuvale `src` alale uue pildi asukoht.
             elementum ac dui in, posuere pharetra odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Curabitur eget lectus mi. Donec lorem magna, elementum ac dui in, posuere pharetra odio.</p>
     </div>
-    <img id="photo" src="images/SIIA_SINU_PILT.png">
+    <img id="photo" src="SIIA_SINU_PILDI_LINK">
 </div>
 ```
 </details>
 
-### 7. Lõbusad faktid
+### 4. Lõbusad faktid
 
 <details>
 <summary>💡 Vihje 1</summary>
@@ -198,17 +153,17 @@ Lisa ülejäänud kaks faktikasti analoogselt näitele.
 ```html
 <div class="container">
     <div class="card">
-        <img class="icon" src="images/pane_siia_oma_pilt.png"/>
+        <img class="icon" src="pane_siia_oma_pildi_link"/>
         <h1>Kas teadsid, et </h1>
         <p>MUUDA SEE TEKST.</p>
     </div>
     <div class="card">
-        <img class="icon" src="images/pane_siia_oma_pilt.png"/>
+        <img class="icon" src="pane_siia_oma_pildi_link"/>
         <h1>Kas teadsid, et </h1>
         <p>MUUDA SEE TEKST.</p>
     </div>
     <div class="card">
-        <img class="icon" src="images/pane_siia_oma_pilt.png"/>
+        <img class="icon" src="pane_siia_oma_pildi_link"/>
         <h1>Kas teadsid, et </h1>
         <p>MUUDA SEE TEKST.</p>
     </div>
@@ -216,7 +171,7 @@ Lisa ülejäänud kaks faktikasti analoogselt näitele.
 ```
 </details>
 
-### 6. Video lisamine
+### 5. Video lisamine
 
 Leia endale youtube'st mõni teemakohane video, mida lehel näidata.
 
@@ -225,7 +180,7 @@ Leia endale youtube'st mõni teemakohane video, mida lehel näidata.
 
 - Sulle on antud väljas `iframe` asuval alal `src` link kujul: src="https://www.youtube.com/embed/WLT7TDGzXGU?si=z5_UTSHfVFkCDm6X"
 - Leia endale Youtube'st sobiv video
-- Võta oma Youtube video url-ist peale "=" olev osa ning asenda see etteantud lingi viimase osaga
+- Võta oma Youtube video url-ist peale "=" olev osa ning asenda see etteantud lingi viimase osaga peale "/"
 - Ehk kui sinu url on https://www.youtube.com/watch?v=bnmAi53H520 siis sa kasutad sellest "bnmAi53H520" osa
 </details>
 
@@ -245,7 +200,7 @@ Leia endale youtube'st mõni teemakohane video, mida lehel näidata.
 </details>
 
 
-### 7. Lisainfo lisamine
+### 6. Lisainfo lisamine
 
 Vaadates malli `given_template.jpg` märkad, et seal on "lisainfo" ala.
 Sinna peaksime tekitama 3 linki, mis viivad mõnele teisele veebilehele.
